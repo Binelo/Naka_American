@@ -1,0 +1,109 @@
+/* font-family: "bebas-neue-pro", sans-serif; */
+/* font-family: "proxima-soft-condensed", sans-serif; */
+
+.nakaamerican {
+    display: flex;
+    align-items: center;
+}
+.burger, .naka {
+    flex: 1;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    transition: .6s ease-out;
+}
+.burger:hover, .naka:hover {
+    flex: 1.1;
+}
+.naka {
+    background: url(/img/naka-fundo.png) no-repeat center center;
+    background-size: cover;
+}
+.burger {
+    background: url(/img/burger-fundo.png) no-repeat center center;
+    background-size: cover;
+    background-color: #1A1917;
+}
+.btn-naka {
+    background: url(/img/fundo-btn.png) no-repeat center center;
+    background-color: #000;
+    background-size: cover;
+    max-width: fit-content;
+    padding: 0px 30px;
+    box-shadow: 0px 0px 0px 1px #fff inset, 0px 0px 0px 1px #0000008c inset;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 300;
+    transition: .3s;
+    font-family: "bebas-neue-pro", sans-serif;
+}
+.btn-naka:hover {
+    box-shadow: 0px 0px 0px 1px #ffffff inset, 0px 0px 0px 38px #CE2525 inset;
+}
+
+.btn-burger {
+    background-color: #FF8601;
+    box-shadow: 0px 0px 0px 1px #FF8601 inset;
+    padding: 8px 25px;
+    max-width: fit-content;
+    font-size: 1.5rem;
+    color: #171717;
+    transition: .3s;
+    text-align: center;
+    font-weight: 700;
+    font-family: "proxima-soft-condensed", sans-serif;
+}
+.btn-burger:hover {
+    background-color: #ff840100;
+    color: #FF8601;
+}
+
+@media only screen and (min-width:337px) and (max-width:580px) {
+
+    .nakaamerican {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .burger, .naka {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        transition: .6s ease-out;
+        padding: 26.5px;
+    }
+    .burger:hover, .naka:hover {
+        flex: 1;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:336px) {
+
+    .nakaamerican {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .burger, .naka {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        transition: .6s ease-out;
+        padding: 26.5px;
+    }
+    .burger:hover, .naka:hover {
+        flex: 1;
+    }
+}
