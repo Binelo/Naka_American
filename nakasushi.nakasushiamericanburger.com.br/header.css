@@ -1,0 +1,13 @@
+.header {
+    background: url(/img/fundo.webp) no-repeat center center;
+    background-size: cover;
+    padding: 30px 20px;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    justify-items: end;
+    align-items: center;
+    font-size: 1.5rem;
+}

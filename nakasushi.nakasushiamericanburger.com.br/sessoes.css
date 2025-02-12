@@ -1,0 +1,54 @@
+.sessoes {
+    padding: 80px 10px;
+    background: url(/img/fundo.webp) no-repeat center center;
+    background-size: cover;
+}
+.sessoes-title h4 {
+    font-size: 2.5rem;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    color: #CE2525;
+    font-weight: 700;
+}
+.sessoes-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.sessoes-grid a {
+    flex: 1;
+    min-width: 125px;
+    max-width: 125px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    transition: .3s;
+}
+.sessoes-grid a:hover {
+    color: #CE2525;
+}
+.sessoes-grid a:hover img{
+    /* transform: scale(1.1); */
+    box-shadow: 0px 0px 0px 2px #CE2525, 0px 0px 5px 0px #CE2525;
+}
+.sessoes-grid a img {
+    box-shadow: 0px 0px 5px 0px #00000090;
+    transition: .3s;
+}
+
+@media only screen and (max-width: 785px) {
+
+    .sessoes-grid {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        justify-content: start;
+        gap: 30px;
+    }
+    
+}

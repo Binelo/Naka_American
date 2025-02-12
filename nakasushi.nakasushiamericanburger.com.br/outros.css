@@ -1,0 +1,44 @@
+.politica p {
+    margin-top: 10px;
+}
+.politica h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.politica ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.politica ul li {
+    text-indent: 50px;
+}
+.politica h2 {
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+.politica {
+    padding: 30px 10px;
+}
+.termos {
+    padding: 30px 10px;
+}
+.termos p {
+    margin-top: 10px;
+}
+.termos h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.termos ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.termos ul li {
+    text-indent: 50px;
+}
+.termos h2 {
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+}

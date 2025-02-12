@@ -1,0 +1,89 @@
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-w {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+html {
+    font-family: "bebas-neue-pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.btn {
+    background: url(/img/fundo-btn.webp) no-repeat center center;
+    background-color: #000;
+    background-size: cover;
+    max-width: fit-content;
+    padding: 0px 30px;
+    box-shadow: 0px 0px 0px 1px #fff inset, 0px 0px 0px 1px #0000008c inset;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 300;
+    transition: .3s;
+    font-family: "bebas-neue-pro", sans-serif;
+}
+.btn:hover {
+    box-shadow: 0px 0px 0px 1px #ffffff inset, 0px 0px 0px 38px #CE2525 inset;
+}
+
+.btn-verm {
+    background: url(/img/fundo-btn.webp) no-repeat center center;
+    background-color: #000;
+    background-size: cover;
+    max-width: fit-content;
+    padding: 0px 30px;
+    box-shadow: 0px 0px 0px 1px #fff inset, 0px 0px 0px 1px #0000008c inset;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 300;
+    transition: .3s;
+}
+.btn-verm:hover {
+    box-shadow: 0px 0px 0px 1px #ffffff inset, 0px 0px 0px 38px #ffffff inset;
+    color: #CE2525;
+}
+
+.whats-fixed {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    animation: move 3s infinite;
+    z-index: 222;
+    max-width: 65px;
+  }
+  
+  @keyframes move {
+    25%{
+       transform: translateX(-10px);  }
+    50%{
+      transform: translateX(0px);  
+    }
+    75%{
+      transform: translateX(10px); 
+    }
+    100%{
+      transform: translateX(0px); 
+    }
+  }
+
+/* 
+.btn {
+    background: url(/img/fundo-btn.png) no-repeat center center;
+    background-color: black;
+    background-size: cover;
+    max-width: fit-content;
+    padding: 0px 30px;
+    box-shadow: 0px 0px 0px 1px #fff inset, 0px 0px 0px 40px #e0202000 inset;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 300;
+    transition: .3s;
+}
+.btn:hover {
+    box-shadow: 0px 0px 0px 1px #e02020 inset, 0px 0px 0px 1px #e02020 inset;
+}
+*/

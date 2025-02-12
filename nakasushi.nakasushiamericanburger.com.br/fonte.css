@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Asia Tiger';
+    src: url('/fontes/Asia-Tiger.woff2') format('woff2'),
+         url('/fontes/Asia-Tiger.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}

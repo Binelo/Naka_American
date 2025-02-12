@@ -1,0 +1,110 @@
+.footer {
+    padding: 60px 10px;
+    box-shadow: 0px 0px 20px #0000004d;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 15px;
+}
+.marcas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+}
+.marcas a {
+    transition: .3s;
+}
+.marcas a:hover {
+    transform: scale(1.05);
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.pedidos {
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+}
+.cardapio {
+    display: grid;
+    gap: 10px;
+}
+.cardapio h4 {
+    font-family: Chennai;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.39);
+}
+.cardapio a {
+    font-family: Chennai;
+    transition: .3s;
+    max-width: fit-content;
+    font-size: 1.25rem;
+}
+.cardapio a:hover {
+    color: #CE2525;
+}
+.direitos {
+    background: #1A1917;
+    padding: 40px 10px;
+    color: #F2F2F2;
+}
+.direitos-grid {
+    display: grid;
+    font-family: Chennai;
+    font-size: 1.25rem;
+    justify-items: center;
+    text-align: center;
+}
+.direitos-grid a {
+    transition: .3s;
+}
+.direitos-grid a:hover {
+    color: #CE2525;
+}
+
+@media only screen and (min-width:325px) and (max-width:760px) {
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    .cardapio {
+        display: grid;
+        justify-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    
+}
+
+@media only screen and (min-width:0px) and (max-width:324px) {
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    .cardapio {
+        display: grid;
+        justify-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .marcas {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        gap: 50px;
+    }
+    
+}
