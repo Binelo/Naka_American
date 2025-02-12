@@ -1,0 +1,107 @@
+.burgers {
+    color: #fff;
+}
+.burgers-grid {
+    background: url(/img/fundo-burgers1.webp) repeat-y center center;
+    background-size: cover;
+    background-color: #171717;
+    padding: 60px 10px;
+    display: grid;
+    gap: 40px;
+    justify-items: center;
+}
+.burgers-grid2 {
+    background: url(/img/fundo-burges2.webp) no-repeat center center;
+    background-size: cover;
+    background-color: #000000;
+    padding: 60px 10px;
+    display: grid;
+    gap: 40px;
+    justify-items: center;
+}
+.burgers-title {
+    font-family: Befalow;
+    font-size: 8rem;
+    font-weight: 400;
+    text-align: center;
+}
+.burger-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    gap: 15px;
+}
+.burger-item .burger-foto {
+    transition: .3s;
+}
+.burger-item:hover .burger-foto {
+    transform: scale(1.03);
+}
+.burger-item:hover .btn {
+    background-color: #ff840100;
+    color: #FF8601;
+}
+.burger-about {
+    display: grid;
+    gap: 20px;
+    max-width: 400px;
+}
+.burger-about h2 {
+    font-family: El Cabestor;
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+.burger-about p {
+    font-size: 1.25rem;
+}
+.burger-about p strong {
+    color: #FF8601;
+}
+
+@media only screen and (min-width:400px) and (max-width:760px) {
+
+    .burger-item {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        align-items: center;
+        max-width: fit-content;
+        gap: 15px;
+        text-align: center;
+    }
+    .burger-item .btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .burgers-title {
+        font-family: Befalow;
+        font-size: 5rem;
+    }
+    
+}
+
+@media only screen and (min-width:0px) and (max-width:399px) {
+
+    .burger-item {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        align-items: center;
+        max-width: fit-content;
+        gap: 15px;
+        text-align: center;
+    }
+    .burger-item .btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .burgers-title {
+        font-family: Befalow;
+        font-size: 4rem;
+        line-height: 1em;
+    }
+    .burger-about p {
+        font-size: 1.08rem;
+    }
+}

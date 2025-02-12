@@ -1,0 +1,80 @@
+.footer {
+    background: url(/img/fundo-branco.webp) no-repeat center center;
+    background-size: cover;
+    padding: 50px 10px;
+}
+.footer-grid {
+    display: grid;
+    justify-items: center;
+    gap: 80px;
+}
+.footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-weight: 700;
+    text-align: center;
+}
+.footer-links a:hover {
+    color: #FF8601;
+}
+.footer-pedir {
+    display: grid;
+    justify-items: center;
+    gap: 50px;
+}
+.footer-pedir div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.footer-pedir a:hover {
+    transform: scale(1.05);
+}
+.direitos {
+    background-color: #1A1917;
+    color: #F2F2F2;
+    padding: 50px 10px;
+    font-size: 1.25rem;
+}
+.direitos-grid {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.redes {
+    display: flex;
+    gap: 30px;
+}
+.redes a:hover {
+    transform: scale(1.1);
+}
+.direitos-grid a:hover {
+    color: #FF8601;
+}
+
+@media only screen and (max-width:380px) {
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .footer-grid {
+        gap: 40px;
+    }
+    .footer-pedir div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .direitos {
+        font-size: 1.05rem;
+    }
+    
+}

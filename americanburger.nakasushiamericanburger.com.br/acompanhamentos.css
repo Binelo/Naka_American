@@ -1,0 +1,82 @@
+.acompanhamentos {
+    background: url(/img/fundo-acompanhamentos.webp) no-repeat center center;
+    background-size: cover;
+    background-color: #171717;
+    padding: 60px 10px;
+    color: #fff;
+}
+.acompanhamentos-title {
+    font-family: Befalow;
+    font-size: 8rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+.acompanhamentos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px 10px;
+    justify-items: center;
+    align-items: center;
+}
+.acompanhamentos-item h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    font-family: El Cabestor;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.acompanhamentos-item {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+.ac-foto {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+@media only screen and (min-width:470px) and (max-width:840px) {
+    .acompanhamentos-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px 10px;
+        justify-items: center;
+    }
+    .acompanhamentos-title {
+        font-family: Befalow;
+        font-size: 5rem;
+    }
+}
+@media only screen and (min-width:380px) and (max-width:469px) {
+    .acompanhamentos-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px 10px;
+        justify-items: center;
+    }
+    .acompanhamentos-title {
+        font-family: Befalow;
+        font-size: 4rem;
+    }
+    .acompanhamentos-item h2 {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width:0px) and (max-width:379px) {
+    .acompanhamentos-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px 10px;
+        justify-items: center;
+    }
+    .acompanhamentos-title {
+        font-family: Befalow;
+        font-size: 2.8rem;
+    }
+    .acompanhamentos-item h2 {
+        font-size: 1.1rem;
+    }
+}

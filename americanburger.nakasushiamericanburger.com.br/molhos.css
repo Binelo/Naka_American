@@ -1,0 +1,55 @@
+.molhos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.molhos-grid div {
+    display: grid;
+    justify-items: center;
+    font-size: 1.25rem;
+    text-align: center;
+    max-width: 150px;
+    gap: 20px;
+}
+.molhos h4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    max-width: fit-content;
+    font-family: El Cabestor;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.molhos {
+    padding: 50px 10px;
+}
+
+@media only screen and (min-width:380px) and (max-width:680px) {
+    .molhos-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .molhos h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:379px) {
+    .molhos-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .molhos h4 {
+        font-size: 1rem;
+    }
+}

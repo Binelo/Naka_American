@@ -1,0 +1,134 @@
+.combos {
+    background: url(/img/fundo-branco.webp) no-repeat center center;
+    background-size: cover;
+    padding: 60px 10px;
+}
+.combo-title {
+    font-family: Befalow;
+    font-size: 8rem;
+    font-weight: 400;
+    text-align: center;
+}
+.combos-grid {
+    display: grid;
+    justify-items: center;
+    gap: 100px;
+}
+.combo-item {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.combo-about {
+    max-width: 770px;
+    text-align: end;
+}
+.combo-about h2 {
+    font-size: 2.25rem;
+    font-family: El Cabestor;
+}
+.combo-about p {
+    font-size: 1.25rem;
+}
+
+.combo-about span {
+    display: grid;
+    justify-items: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.combo-item:hover .btn {
+    background-color: #ff840100;
+    color: #FF8601;
+}
+.combo-item .btn {
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+@media only screen and (min-width:600px) and (max-width:1130px) {
+
+    .combo-item {
+        display: grid;
+        gap: 25px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .combo-about {
+        grid-row: 2;
+        text-align: center;
+    }
+    .combo-about span {
+        justify-items: center;
+    }
+    .combo-item .btn {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width:390px) and (max-width:599px) {
+
+    .combo-item {
+        display: grid;
+        gap: 25px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .combo-about {
+        grid-row: 2;
+        text-align: center;
+    }
+    .combo-about span {
+        justify-items: center;
+    }
+    .combo-item .btn {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .combo-title {
+        font-size: 5rem;
+        line-height: 1em;
+    }
+    .combo-about h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:389px) {
+
+    .combo-item {
+        display: grid;
+        gap: 25px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .combo-about {
+        grid-row: 2;
+        text-align: center;
+    }
+    .combo-about span {
+        justify-items: center;
+    }
+    .combo-item .btn {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .combo-title {
+        font-size: 5rem;
+        line-height: 1em;
+    }
+    .combo-about h2 {
+        font-size: 1.3rem;
+    }
+    .combo-about p {
+        font-size: 1rem;
+    }
+}
